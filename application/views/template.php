@@ -24,6 +24,7 @@
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="<?php echo base_url('css/style.css');?>">
+  <link rel="stylesheet" href="<?php echo base_url('css/reset.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/960.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/960_12_col.css');?>">
   <!-- 960gs 16_col and 24_col files comented, chose choose the file that you need  
@@ -42,7 +43,7 @@
 
 <body>
 
-  <div id="container">
+  <div id="container" class="container_12">
     <header>
 		<?php $this->load->view('includes/header');?>
 	</header>		  
