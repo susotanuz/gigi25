@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-if ($_SERVER['HTTP_HOST'] === 'localhost') $config['base_url']	= 'http://localhost/codeigniter--html5boilerplate--960grid-/';
-else $config['base_url']	= 'http://susoframework.herokuapp.com/';
+if ($_SERVER['HTTP_HOST'] === 'localhost') $config['base_url']	= 'http://localhost/gigi25/';
+else $config['base_url']	= 'http://gigi25.herokuapp.com/';
 /*
 |--------------------------------------------------------------------------
 | Index File
