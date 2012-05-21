@@ -34,6 +34,43 @@ h3{
 p{
   font-size:1em;
 }
+#content{
+        overflow-y:auto
+    }
+    #upload{
+        padding:12px;
+        font:bold 12px Arial, Helvetica, sans-serif;
+        text-align:center;
+        background:#f2f2f2;
+        color:#3366cc;
+        border:1px solid #ccc;
+        width:150px;
+        display:block;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        margin:0 auto;
+        text-decoration:none
+    }
+    #gallery{
+        list-style:none;
+        margin:20px 0 0 0;
+        padding:0
+    }
+    #gallery li{
+        display:block;
+        float:left;
+        width:155px;
+        height:160px;
+        background:#9AF099;
+        border:1px solid #093;
+        text-align:center;
+        padding:6px 0;
+        margin:5px 0 5px 14px
+    }
+    #gallery li img{
+        width:145px;
+        height:140px
+    }
 /*#container{
   -moz-box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
   -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);

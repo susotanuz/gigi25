@@ -64,6 +64,7 @@
 
 
   <!-- scripts concatenated and minified via ant build script--> 
+  <script defer src="<?php echo base_url('js/libs/ajaxupload.js');?>"></script>
   <script defer src="<?php echo base_url('js/plugins.js');?>"></script>
   <script defer src="<?php echo base_url('js/script.js');?>"></script>
   <!-- end scripts-->

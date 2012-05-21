@@ -1,5 +1,8 @@
-<h1>Home view</h1>
-<h2>Multimedia content admin</h2>
-<p>Go! go! go! go!</p>
+<div id="content">
+    <a href="javascript:;" id="upload">Subir Foto</a>
+    <ul id="gallery">
+    	<!-- Cargar Fotos -->
+    </ul>
+</div>
 	
 	
