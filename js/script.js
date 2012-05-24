@@ -4,7 +4,7 @@ $(document).ready(function(){
  
         var button = $('#upload'), interval;
         new AjaxUpload(button,{
-            action: 'procesa.php',
+            action: '../js/procesa.php',
             name: 'image',
             onSubmit : function(file, ext){
                 // cambiar el texto del boton cuando se selecicione la imagen
@@ -42,7 +42,7 @@ $(document).ready(function(){
         });
  
         // Listar  fotos que hay en mi tabla
-        $("#gallery").load("procesa.php?action=listFotos");
+        $("#gallery").load("../js/procesa.php?action=listFotos");
     });
 
 

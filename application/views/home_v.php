@@ -8,7 +8,7 @@
 <div id="content">
 	<h1 class="fotos-titulo">Fotos</h1>
 	<div class="adjuntar-content">
-		<a href="javascript:;" id="upload" class="upload-logo">Subir Foto</a>
+		<!-- <a href="javascript:;" id="upload" class="upload-logo">Subir Foto</a> -->
 	</div>
     <ul id="gallery">
     	<!-- Cargar Fotos -->

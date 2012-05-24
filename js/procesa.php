@@ -1,5 +1,5 @@
 <?php
-$cn = mysql_connect("localhost","suso","Al#23691606");
+$cn = mysql_connect("localhost","root","123");
 mysql_select_db("gigi25", $cn);
  
 if($_GET['action'] == 'listFotos'){
@@ -8,14 +8,14 @@ if($_GET['action'] == 'listFotos'){
     while($row = mysql_fetch_array($query))
     {
         echo  '<li>
-                <img src="photos/'.$row['nombre_foto'].'" />
+                <img src="../js/fotos/'.$row['nombre_foto'].'" />
                 <span>'.$row['nombre_foto'].'</span>
             </li>';
     }
  
 }else
 {
-    $destino = "photos/";
+    $destino = "../js/fotos/";
     if(isset($_FILES['image'])){
  
         $nombre = $_FILES['image']['name'];
@@ -28,7 +28,7 @@ if($_GET['action'] == 'listFotos'){
         }
  
         echo  '<li>
-                <img src="photos/'.$nombre.'" />
+                <img src="../js/fotos/'.$nombre.'" />
                 <span>'.$nombre.'</span>
             </li>';
     }

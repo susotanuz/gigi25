@@ -59,14 +59,14 @@
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<?php echo base_url('js/libs/jquery-1.6.2.min.js');?>"><\/script>')</script>
 
 
   <!-- scripts concatenated and minified via ant build script--> 
+  <script defer src="<?php echo base_url('js/libs/jquery.js');?>"></script>
   <script defer src="<?php echo base_url('js/libs/ajaxupload.js');?>"></script>
-  <script defer src="<?php echo base_url('js/plugins.js');?>"></script>
   <script defer src="<?php echo base_url('js/script.js');?>"></script>
+  <script defer src="<?php echo base_url('js/plugins.js');?>"></script>
+  
   <!-- end scripts-->
 
 	
