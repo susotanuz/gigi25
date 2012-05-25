@@ -3,7 +3,7 @@
 <div class="video-content">
 	<h1 class="video-titulo">Videos</h1>
 	<div class="video-embed"> 
-		<a class="iframe youtube" id="lol" href="http://www.youtube.com/embed/X7barj20awY?autoplay=1">Youtube (iframe)</a>
+		<a class="iframe youtube" id="lol" href="http://www.youtube.com/embed/X7barj2OawY?autoplay=1">Youtube (iframe)</a>
 	</div>
 </div>
 <div id="content">
