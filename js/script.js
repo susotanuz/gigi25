@@ -1,5 +1,9 @@
 /* Author: Suso
 */
+$(".grouped").fancybox({
+    'overlayOpacity': 0.7,
+    'overlayColor': '#000'
+});
 $(document).ready(function(){ 
         var button = $('#upload'), interval;
         new AjaxUpload(button,{
@@ -105,6 +109,8 @@ $(".youtube").fancybox({
     'overlayOpacity': 0.7,
     'overlayColor': '#000'
 });
+
+
 
 
 
