@@ -137,6 +137,12 @@ p{
   background-color:#000;
   margin-top:20px;
 }
+.youtube{
+  text-indent:-9999px;
+  position:absolute;
+  width:400px;
+  height:200px;
+}
 .adjuntar-content{
   margin-top:20px;
   position:relative;
