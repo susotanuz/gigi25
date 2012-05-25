@@ -63,10 +63,11 @@
 
 
   <!-- scripts concatenated and minified via ant build script--> 
-  <script defer src="<?php echo base_url('js/libs/jquery.js');?>"></script>
-  <script defer src="<?php echo base_url('js/libs/jquery.easing-1.3.js');?>"></script>
+  <script defer src="<?php echo base_url('js/libs/jquery-1.6.2.js');?>"></script>  
+  <script defer src="<?php echo base_url('js/libs/jquery.easing-1.3.js');?>"></script>  
   <script defer src="<?php echo base_url('js/libs/jquery.fancybox-1.3.4.js');?>"></script>
   <script defer src="<?php echo base_url('js/libs/jquery.mousewheel-3.0.4.js');?>"></script>
+  <script defer src="<?php echo base_url('js/libs/ajaxupload.js');?>"></script>
   <script defer src="<?php echo base_url('js/libs/jquery.scrollTo.js');?>"></script>
   <script defer src="<?php echo base_url('js/script.js');?>"></script>
   <script defer src="<?php echo base_url('js/plugins.js');?>"></script>

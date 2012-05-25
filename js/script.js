@@ -50,6 +50,10 @@ $("#fotos").click(function() {
          scrollTop: $("#content").offset().top
      }, 2000);
  });
+$(".youtube").fancybox({
+    'transitionIn'  :   'elastic',
+    'transitionOut' :   'elastic',
+});
 
 
 
