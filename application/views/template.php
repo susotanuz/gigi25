@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="<?php echo base_url('css/reset.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/960.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/960_12_col.css');?>">
+  <link rel="stylesheet" href="<?php echo base_url('css/jquery.fancybox-1.3.4.css');?>">
   <!-- 960gs 16_col and 24_col files comented, chose choose the file that you need  
   <link rel="stylesheet" href="<?php #echo base_url('css/960_16_col.css');?>">
   <link rel="stylesheet" href="<?php #echo base_url('css/960_24_col.css');?>"> 
@@ -63,7 +64,9 @@
 
   <!-- scripts concatenated and minified via ant build script--> 
   <script defer src="<?php echo base_url('js/libs/jquery.js');?>"></script>
-  <script defer src="<?php echo base_url('js/libs/ajaxupload.js');?>"></script>
+  <script defer src="<?php echo base_url('js/libs/jquery.easing-1.3.js');?>"></script>
+  <script defer src="<?php echo base_url('js/libs/jquery.fancybox-1.3.4.js');?>"></script>
+  <script defer src="<?php echo base_url('js/libs/jquery.mousewheel-3.0.4.js');?>"></script>
   <script defer src="<?php echo base_url('js/libs/jquery.scrollTo.js');?>"></script>
   <script defer src="<?php echo base_url('js/script.js');?>"></script>
   <script defer src="<?php echo base_url('js/plugins.js');?>"></script>
