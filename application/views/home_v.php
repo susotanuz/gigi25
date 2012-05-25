@@ -6,16 +6,17 @@
 		<a class="iframe youtube" id="lol" href="http://www.youtube.com/embed/X7barj2OawY?autoplay=1">Youtube (iframe)</a>
 	</div>
 </div>
-<div id="content">
-  <div class="scrolls">
-
-  </div>
-  <div class="contenedor container_12">
-  	<h1 class="fotos-titulo">Fotos</h1>
+<div id="content">  
+  <div class="tittle-pic container_12">
+	  <h1 class="fotos-titulo">Fotos</h1>
     <ul id="gallery">
-    	<!-- Cargar Fotos -->
+    <!-- Cargar Fotos -->
     </ul>
   </div>
+  <div class="scrolls">
+    <a href="#" id="upload-logo" class="upload-logo">Subir Foto</a>
+    <a href="#" class="scroll-top">Subir</a>
+  </div>  
 </div>
 	
 	
