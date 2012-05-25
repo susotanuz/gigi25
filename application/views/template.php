@@ -44,18 +44,17 @@
 
 <body>
 
-  <div id="container" class="container_12">
-    <header>
+  <div id="container">
+    <header class="container_12">
 		<?php $this->load->view('includes/header');?>
 	</header>		  
     <div id="main" role="main">
 		<?php $this->load->view($main_content);?>
     </div>
-    <footer>
+    <footer class="container_12">
 		<?php $this->load->view('includes/footer');?>
     </footer>
   </div> <!--! end of #container -->
-
 
   <!-- JavaScript at the bottom for fast page loading -->
 
