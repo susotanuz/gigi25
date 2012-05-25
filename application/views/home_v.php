@@ -14,7 +14,7 @@
     </ul>
   </div>
   <div class="scrolls">
-    <a href="#" id="upload-logo" class="upload-logo">Subir Foto</a>
+    <a href="#" id="upload-dos" class="upload-logo">Subir Foto</a>
     <a href="#" class="scroll-top">Subir</a>
   </div>  
 </div>
