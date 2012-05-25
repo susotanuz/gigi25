@@ -45,9 +45,11 @@ $(document).ready(function(){
         $("#gallery").load("../js/procesa.php?action=listFotos");
     });
 
-
-
-
+$("#fotos").click(function() {
+     $('html, body').animate({
+         scrollTop: $("#content").offset().top
+     }, 2000);
+ });
 
 
 
