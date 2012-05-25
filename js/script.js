@@ -1,7 +1,6 @@
 /* Author: Suso
 */
-$(document).ready(function(){
- 
+$(document).ready(function(){ 
         var button = $('#upload'), interval;
         new AjaxUpload(button,{
             action: '../js/procesa.php',
@@ -22,10 +21,9 @@ $(document).ready(function(){
                 }, 200);
             },
             onComplete: function(file, response){
+                $('html, body').animate({scrollTop:$(document).height()}, 'slow');
                 button.text('Subir Foto');
- 
                 window.clearInterval(interval);
- 
                 // Habilitar boton otra vez
                 this.enable();
  
@@ -38,11 +36,11 @@ $(document).ready(function(){
                     $('#gallery').prepend(response);
                     $('#gallery li').eq(0).hide().show("slow");
                 }
-            }
-        });
- 
+            }      
+        });        
         // Listar  fotos que hay en mi tabla
         $("#gallery").load("../js/procesa.php?action=listFotos");
+
     });
 
 $("#fotos").click(function() {
@@ -50,6 +48,7 @@ $("#fotos").click(function() {
          scrollTop: $("#content").offset().top
      }, 2000);
  });
+
 $(".youtube").fancybox({
     'padding' : 0,
     'autoScale' : false,
