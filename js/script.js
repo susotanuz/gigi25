@@ -51,8 +51,14 @@ $("#fotos").click(function() {
      }, 2000);
  });
 $(".youtube").fancybox({
-    'transitionIn'  :   'elastic',
-    'transitionOut' :   'elastic',
+    'padding' : 0,
+    'autoScale' : false,
+    'transitionIn' : 'fade',
+    'transitionOut' : 'fade',
+    'width' : 960,
+    'height' : 595,
+    'overlayOpacity': 0.7,
+    'overlayColor': '#000'
 });
 
 
