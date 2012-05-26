@@ -1,5 +1,5 @@
 <?php
-$cn = mysql_connect("localhost","root","123");
+$cn = mysql_connect("localhost","root","");
 mysql_select_db("gigi25", $cn);
 
 $action = ! empty($_GET['action']) ? $_GET['action'] : '';
@@ -16,7 +16,7 @@ if($action == 'listFotos'){
  
 }else
 {
-    $destino = "../js/fotos/";
+    $destino = "../js/fotos";
     if(isset($_FILES['image'])){
 
         $name = $_FILES['image']['name'];
