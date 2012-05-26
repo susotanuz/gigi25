@@ -14,10 +14,10 @@
 | path to your installation.
 |
 */
-// if ($_SERVER['HTTP_HOST'] === 'localhost:3333') $config['base_url']	= 'http://localhost:3333';
+if ($_SERVER['HTTP_HOST'] === 'localhost') $config['base_url']	= 'http://localhost/gigi25/';
 // else if ($_SERVER['HTTP_HOST'] === 'localhost') 
-// else $config['base_url']	= 'http://gigi25.herokuapp.com/';
-$config['base_url']  = 'http://localhost/gigi25/';
+else $config['base_url']	= 'http://gigi25.herokuapp.com/';
+// $config['base_url']  = 'http://localhost/gigi25/';
 /*
 |--------------------------------------------------------------------------
 | Index File
