@@ -108,11 +108,19 @@ $(".youtube").fancybox({
     'overlayOpacity': 0.7,
     'overlayColor': '#000'
 });
- $('.grouped').live('click', function () {
-    $.fancybox($(this).next().html());
+$('.grouped').live('click', function () {
+    $.fancybox({ 
+        type: 'image', 
+        href: $(this).attr('href'), 
+        'overlayOpacity': 0.7, 
+        'overlayColor': '#000', 
+        'transitionIn' : 'elastic',
+        'transitionOut' : 'elastic'
+    });
+    //$.fancybox($(this).html());
     return false;
-  });
 
+  });
 
 
 
