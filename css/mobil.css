@@ -1,27 +1,6 @@
-body {
-  background-color:#FFEEF9;  
-}
+
 .content-header{
-	margin-top:10px;
   	border:1px solid red;
-}
-.logo{
-  width:156px;
-  height:179px;
-  text-indent:-99999px;
-  background-image:url('../img/logo-gigi.png');
-}
-#fotos{
-	background-image:url('../img/ver-fotos.png');
-  	width:89px;
-  	height:13px;
-  	text-indent:-9999px;
-}
-.upload-text{
-  background-image:url('../img/subir-fotos.png');
-  width:100px;
-  height:25px;
-  text-indent:-9999px;
 }
 /*.linea1{
   position:absolute;
