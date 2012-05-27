@@ -1,3 +1,55 @@
-.content-header{
-  border:1px solid red;
+body {
+  background-color:#FFEEF9;  
+  font-size: 12px/1.2px; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  /* Prevents Mobile Safari from bumping up font sizes in landscape */
+  -webkit-text-size-adjust: 100%; 
+  -webkit-tap-highlight-color: rgb(255,255,0);
 }
+.content-header{
+	margin-top:10px;
+  	border:1px solid red;
+  	position:relative;
+}
+.logo{
+  width:156px;
+  height:179px;
+  text-indent:-99999px;
+  margin:0 auto;
+  background-image:url('../img/logo-gigi.png');
+}
+#fotos{
+	position:absolute;
+	left:0;
+	background-image:url('../img/ver-fotos.png');
+  	width:89px;
+  	height:13px;
+  	text-indent:-9999px;
+}
+.upload-text{
+  position:absolute;
+  right:0;
+  background-image:url('../img/subir-fotos.png');
+  width:100px;
+  height:25px;
+  text-indent:-9999px;
+}
+/*.linea1{
+  position:absolute;
+  left:0;
+  top:89px;
+  background-image:url('../img/linea1.png');
+  width:233px;
+  height:23px;
+  text-indent:-9999px;
+}
+.linea2{
+  position:absolute;
+  right:0;
+  top:89px;
+  background-image:url('../img/linea2.png');
+  width:233px;
+  height:23px;
+  text-indent:-9999px;
+}*/
