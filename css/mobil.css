@@ -29,21 +29,23 @@ body {
   right:0;
   top:89px;
   color:#e54e8a;
-  font-size:12px;
+  font-size:15px;
+  text-decoration:none;
 }
 #fotos{
   position:absolute;
   left:0;
   top:94px;
   color:#e54e8a;
-  font-size:12px;
+  font-size:15px;
+  text-decoration:none;
 }
 .home-intro{
   margin-top:10px!important;
   margin:0 auto;
   background-image:url('../img/texto_mobil.png');
-  width:380px;
-  height:476px;
+  width:300px;
+  height:375px;
   text-indent:-9999px;
 }
 
@@ -53,8 +55,8 @@ body {
   background-image:url('../img/fotos-mobil.png');
   text-indent:-9999px;
   margin:0 auto;
-  width:338px;
-  height:74px;
+  width:270px;
+  height:59px;
 }
 .video-titulo{
 	display:none;
