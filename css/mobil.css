@@ -18,40 +18,50 @@ body {
   margin:0 auto;
   background-image:url('../img/logo-gigi.png');
 }
-/*.linea1{
-  position:absolute;
-  left:0;
-  top:89px;
-  background-image:url('../img/linea1.png');
-  width:233px;
-  height:23px;
-  text-indent:-9999px;
+.linea1{
+  display:none;
 }
 .linea2{
-  position:absolute;
-  right:0;
-  top:89px;
-  background-image:url('../img/linea2.png');
-  width:233px;
-  height:23px;
-  text-indent:-9999px;
-}*/
-
+	display:none;
+}
 .upload-text{
   position:absolute;
   right:0;
   top:89px;
-  background-image:url('../img/subir-fotos.png');
-  width:100px;
-  height:25px;
-  text-indent:-9999px;
+  color:#e54e8a;
+  font-size:12px;
 }
 #fotos{
   position:absolute;
   left:0;
   top:94px;
-  background-image:url('../img/ver-fotos.png');
-  width:89px;
-  height:13px;
+  color:#e54e8a;
+  font-size:12px;
+}
+.home-intro{
+  margin-top:10px!important;
+  margin:0 auto;
+  background-image:url('../img/texto_mobil.png');
+  width:380px;
+  height:476px;
   text-indent:-9999px;
+}
+
+.fotos-titulo{
+  margin-top:10px!important;
+  margin:0 auto;
+  background-image:url('../img/fotos-mobil.png');
+  text-indent:-9999px;
+  margin:0 auto;
+  width:338px;
+  height:74px;
+}
+.video-titulo{
+	display:none;
+}
+.video-embed{
+	display:none;
+}
+.youtube{
+	display:none;
 }
