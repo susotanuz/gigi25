@@ -7,6 +7,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="max-age=86400"/>
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
        More info: h5bp.com/b/378 -->
@@ -23,11 +24,12 @@
 
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="<?php echo base_url('css/style.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/reset.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/960.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/960_12_col.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/jquery.fancybox-1.3.4.css');?>">
+  <link media="only screen and (max-device-width: 480px)" href="<?php echo base_url('css/mobil.css');?>" type= "text/css" rel="stylesheet">
+  <link media="only screen and (min-device-width: 481px)" href="<?php echo base_url('css/style.css');?>" type= "text/css" rel="stylesheet">
   <!-- 960gs 16_col and 24_col files comented, chose choose the file that you need  
   <link rel="stylesheet" href="<?php #echo base_url('css/960_16_col.css');?>">
   <link rel="stylesheet" href="<?php #echo base_url('css/960_24_col.css');?>"> 
