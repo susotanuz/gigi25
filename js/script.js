@@ -25,7 +25,7 @@ $(document).ready(function(){
                 }, 200);
             },
             onComplete: function(file, response){
-                $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+                $('html, body').animate({scrollTop:$("#content").offset().top}, 2000);
                 button.text('Subir Foto');
                 window.clearInterval(interval);
                 // Habilitar boton otra vez
@@ -52,7 +52,7 @@ $(document).ready(function(){
             name: 'image',
             onSubmit : function(file, ext){
                 // cambiar el texto del boton cuando se selecicione la imagen
-                button.text('Subiendo');
+                
                 // desabilitar el boton
                 this.disable();
  
@@ -66,7 +66,7 @@ $(document).ready(function(){
                 }, 200);
             },
             onComplete: function(file, response){
-                $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+                $('html, body').animate({scrollTop:$("#content").offset().top}, 2000);
                 button.text('Subir Foto');
                 window.clearInterval(interval);
                 // Habilitar boton otra vez
