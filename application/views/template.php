@@ -25,8 +25,8 @@
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="<?php echo base_url('css/reset.css');?>">
-  <link rel="stylesheet" href="<?php echo base_url('css/960.css');?>">
-  <link rel="stylesheet" href="<?php echo base_url('css/960_12_col.css');?>">
+  <link media="only screen and (min-device-width: 481px)" href="<?php echo base_url('css/960.css');?>" type= "text/css" rel="stylesheet">
+  <link media="only screen and (min-device-width: 481px)" href="<?php echo base_url('css/960_12_col.css');?>" type= "text/css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url('css/jquery.fancybox-1.3.4.css');?>">
   <link media="only screen and (max-device-width: 480px)" href="<?php echo base_url('css/mobil.css');?>" type= "text/css" rel="stylesheet">
   <link media="only screen and (min-device-width: 481px)" href="<?php echo base_url('css/style.css');?>" type= "text/css" rel="stylesheet">
