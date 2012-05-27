@@ -4,26 +4,20 @@ body {
 .content-header{
 	margin-top:10px;
   	border:1px solid red;
-  	position:relative;
 }
 .logo{
   width:156px;
   height:179px;
   text-indent:-99999px;
-  margin:0 auto;
   background-image:url('../img/logo-gigi.png');
 }
 #fotos{
-	position:absolute;
-	left:0;
 	background-image:url('../img/ver-fotos.png');
   	width:89px;
   	height:13px;
   	text-indent:-9999px;
 }
 .upload-text{
-  position:absolute;
-  right:0;
   background-image:url('../img/subir-fotos.png');
   width:100px;
   height:25px;
